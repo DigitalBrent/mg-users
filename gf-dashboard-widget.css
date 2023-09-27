@@ -1,0 +1,83 @@
+/* Styling for the Gravity Forms Dashboard Widget */
+
+#gf_forms_dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#dashboard-widgets .inside h4#anr {
+    margin-left: 13px;
+    margin-bottom: -0.6em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-shadow: 0px 0px 10px white;
+}
+
+#gf_emails_display {
+    padding: 15px 10px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+#gf_emails_display p {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 600;
+    color: #333;
+}
+
+#gf_emails_display ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#gf_emails_display ul.gf-notification-emails {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#gf_emails_display ul.gf-notification-emails li {
+    margin: 0;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* ... Daily Entries Stats ... */
+
+.gf-today-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gf_entries_today_display {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.gf-report-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gf-report-btn:hover {
+    background-color: #005a87;
+}
