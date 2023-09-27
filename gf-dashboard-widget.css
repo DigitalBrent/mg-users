@@ -52,6 +52,23 @@
     border-radius: 3px;
 }
 
+/* Report Download Section */
+
+.gf-report-section {
+    margin-top: 20px;
+}
+
+.gf-report-section .gf-download-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.gf-report-section p {
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+
 /* ... Daily Entries Stats ... */
 
 .gf-today-section {
@@ -67,7 +84,7 @@
     font-size: 16px;
 }
 
-.gf-report-btn {
+.gf-report-btn, .gf-download-btn {
     padding: 8px 15px;
     font-size: 14px;
     background-color: #007cba;
@@ -78,6 +95,6 @@
     transition: background-color 0.3s ease;
 }
 
-.gf-report-btn:hover {
+.gf-report-btn:hover, .gf-download-btn:hover {
     background-color: #005a87;
 }
